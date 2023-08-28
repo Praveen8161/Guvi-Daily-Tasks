@@ -1,0 +1,20 @@
+Difference between HTTP 1.1 vs HTTP 2
+HTTP Stands for Hypertext Transfer Protocol
+HTTP is an application protocol that has been the standard for communication on the World Wide Web 
+It was invented in 1989. HTTP 1.1 was released in 1997 And the HTTP 2 was released in 2015.
+HTTP 2 is an advanced version of HTTP 1.1 and offers several methods to decrease latency when dealing with mobile platforms and server-intensive graphics and videos. The main differences between HTTP 1.1 and HTTP 2 are:
+
+1. Binary Protocol: In HTTP 1.1 it uses text-based protocol while in HTTP 2 it uses a binary protocol in the binary protocol all messages are encapsulated in binary format, which can be more efficiently processed by computers. Binary formats are more efficient because they don’t require character set conversion and parsing like text formats.
+
+2. Multiplexing: Another difference between HTTP 1.1 and HTTP 2 is that HTTP 2 uses multiplexing to send multiple streams of data over a single TCP connection. In HTTP 1.1, the resources are loaded one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. With HTTP 2 multiplexing, no one resource blocks any other resource, making it faster and more reliable.
+
+3. Header Compression: HTTP 2 also uses header compression to reduce the amount of data that needs to be sent between the client and server. This is achieved using HPACK, a compression algorithm specifically designed to be used with HTTP 2.
+
+4. Server Push: With HTTP 2, the server can send resources such as CSS and JavaScript files to the client without waiting for a request from the client. Server Push is not a notification mechanism from server to client. Instead, pushed resources are used by the client when it may have otherwise produced a request to get the resource anyway. This can help improve page load speed by reducing the number of round trips required between the client and server.
+
+5. Security: HTTP 2 is considered more secure than HTTP 1.1 because it sends data in binary format instead of plain text format. This makes it more difficult for attackers to manipulate data during transmission.
+
+6. Network Delay: HTTP 2 is designed to avoid network delay by using multiplexing to send multiple requests over a single TCP connection. This makes it faster and more reliable than HTTP 1.1, which loads a single request for every TCP connection.
+
+7. Prioritization: HTTP 2 offers developers more control over the prioritization of resources during the loading process. This allows developers to maximize perceived and actual page load speed to a degree that was not possible in HTTP 1.1.
+
