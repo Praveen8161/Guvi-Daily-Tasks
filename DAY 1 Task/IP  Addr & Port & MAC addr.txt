@@ -1,0 +1,9 @@
+1.An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main functions: host or network interface identification and location addressing. An IP address is either a 32-bit (IPv4) or a 128-bit (IPv6) number.
+
+2.A port is an endpoint of communication in an operating system. It is associated with an IP address of the host and the protocol type of the communication. A port number is a 16-bit unsigned integer, thus ranging from 0 to 65535.
+
+3.HTTP methods are the standard methods used by the Hypertext Transfer Protocol (HTTP) to perform various tasks on a web server. Some common HTTP methods include GET, POST, PUT, DELETE, and HEAD.
+
+4.A MAC address is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment. This use is common in most IEEE 802 networking technologies, including Ethernet, Wi-Fi, and Bluetooth. A MAC address is a six-byte hexadecimal address.
+
+The main difference between an IP address and a MAC address is that an IP address is used to identify the connection of a device to a network, while a MAC address is used to ensure the physical address of the device on the network ¹. A port number is used to identify specific processes running on a device, while HTTP methods are used to perform specific actions on a web server.
